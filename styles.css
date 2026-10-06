@@ -88,6 +88,9 @@ button { font: inherit; }
 .module-six .reflection-section + .reflection-section { margin-top: 42px; }
 .module-six .reflection-section p:last-child { margin-bottom: 0; }
 .module-six .concluding-section { margin-top: 58px; }
+.module-seven .reflection-section + .reflection-section { margin-top: 42px; }
+.module-seven .reflection-section p:last-child { margin-bottom: 0; }
+.module-seven .concluding-section { margin-top: 58px; }
 .draft-comparison { width: min(1040px, calc(100vw - 48px)); margin: 84px 50% 88px; transform: translateX(-50%); padding-block: 52px; border-block: 1px solid var(--line); }
 .comparison-heading { max-width: 620px; margin-bottom: 36px; }
 .article-body .comparison-heading h2 { margin: 0 0 14px; color: var(--plum); font-family: var(--serif); font-size: clamp(2rem, 4vw, 3.5rem); font-weight: 500; line-height: 1.08; }
@@ -122,6 +125,11 @@ button { font: inherit; }
 .archive-grid .latest { grid-column: 1 / -1; }
 .patterns-page { padding-block: 120px; }
 .patterns-page + .patterns-page, .pattern-snapshot { padding-block: 105px; border-top: 1px solid var(--line); }
+.qualitative-observations { align-self: end; }
+.observation { padding: 0 0 20px; border-bottom: 1px solid var(--line); }
+.observation + .observation { padding-top: 20px; }
+.observation h3 { margin: 0 0 5px; color: var(--plum); font-family: var(--serif); font-size: 1.15rem; font-weight: 500; }
+.observation p { margin: 0; color: var(--muted); font-size: .76rem; line-height: 1.6; }
 .future-patterns { margin-bottom: 130px; padding: 55px; border: 1px solid var(--line); border-radius: 10px; background: rgba(250,247,241,.45); }
 .future-patterns > span { color: var(--rose); font-size: .62rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; }.future-patterns h2 { max-width: 650px; margin: 18px 0; font-family: var(--serif); font-size: clamp(2rem, 4vw, 3.4rem); font-weight: 500; line-height: 1.15; }.future-patterns p { max-width: 650px; color: var(--muted); font-size: .82rem; }.future-patterns p + p { margin-top: 16px; }.future-patterns strong { color: var(--plum); }.future-patterns .tracking-note { margin-top: 28px; padding-top: 18px; border-top: 1px solid var(--line); font-size: .7rem; font-style: italic; }
 .about-page { padding-top: 60px; }.module-page { padding-top: 0; }
