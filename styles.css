@@ -91,6 +91,14 @@ button { font: inherit; }
 .module-seven .reflection-section + .reflection-section { margin-top: 42px; }
 .module-seven .reflection-section p:last-child { margin-bottom: 0; }
 .module-seven .concluding-section { margin-top: 58px; }
+.module-eight .reflection-section + .reflection-section { margin-top: 42px; }
+.module-eight .reflection-section p:last-child { margin-bottom: 0; }
+.module-eight .concluding-section { margin-top: 58px; }
+.article-topic { max-width: 640px; margin: 30px auto 0; color: var(--plum); font-family: var(--serif); font-size: clamp(1rem, 1.7vw, 1.25rem); font-style: italic; line-height: 1.5; }
+.module-eight .article-topic + .article-meta { margin-top: 18px; }
+.module-eight .future-self-note { position: relative; margin-block: 54px; padding: 30px 0 30px clamp(24px, 4vw, 42px); border-left: 2px solid var(--rose); background: linear-gradient(90deg, rgba(217,181,170,.14), transparent 72%); }
+.module-eight .future-self-note::before { content: "Note to my future self"; display: block; margin-bottom: 16px; color: var(--rose); font-family: var(--sans); font-size: .62rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; }
+.module-eight .concluding-section.future-self-note::before { content: "Question to carry forward"; }
 .draft-comparison { width: min(1040px, calc(100vw - 48px)); margin: 84px 50% 88px; transform: translateX(-50%); padding-block: 52px; border-block: 1px solid var(--line); }
 .comparison-heading { max-width: 620px; margin-bottom: 36px; }
 .article-body .comparison-heading h2 { margin: 0 0 14px; color: var(--plum); font-family: var(--serif); font-size: clamp(2rem, 4vw, 3.5rem); font-weight: 500; line-height: 1.08; }
