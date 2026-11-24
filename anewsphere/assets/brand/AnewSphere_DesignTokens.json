@@ -1,0 +1,48 @@
+{
+  "version": "1.1",
+  "colors": {
+    "forest-green": "#193C37",
+    "pale-blush": "#F4E8E8",
+    "ivory-mist": "#FAF8F6",
+    "muted-sage": "#82958D",
+    "dusty-rose": "#CFAFB2",
+    "charcoal-pine": "#24312E",
+    "soft-stone": "#E8E3DE"
+  },
+  "semantic": {
+    "background": "#FAF8F6",
+    "surface": "#FFFFFF",
+    "text": "#24312E",
+    "text-secondary": "#51635D",
+    "primary": "#193C37",
+    "primary-text": "#FAF8F6",
+    "secondary": "#F4E8E8",
+    "secondary-text": "#193C37",
+    "border": "#E8E3DE",
+    "focus": "#193C37"
+  },
+  "typography": {
+    "body": "Inter, Arial, sans-serif",
+    "display": "Inter, Arial, sans-serif",
+    "editorial": "Playfair Display, Georgia, serif"
+  },
+  "spacing": [
+    4,
+    8,
+    12,
+    16,
+    24,
+    32,
+    48,
+    64
+  ],
+  "radius": {
+    "sm": 4,
+    "md": 8,
+    "lg": 12,
+    "xl": 16,
+    "panel": 24
+  },
+  "touch-target": 44,
+  "content-max": 1280
+}

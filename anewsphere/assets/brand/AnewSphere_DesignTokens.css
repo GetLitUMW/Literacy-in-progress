@@ -1,0 +1,37 @@
+:root {
+  --brand-forest-green: #193C37;
+  --brand-pale-blush: #F4E8E8;
+  --brand-ivory-mist: #FAF8F6;
+  --brand-muted-sage: #82958D;
+  --brand-dusty-rose: #CFAFB2;
+  --brand-charcoal-pine: #24312E;
+  --brand-soft-stone: #E8E3DE;
+  --color-background: #FAF8F6;
+  --color-surface: #FFFFFF;
+  --color-text: #24312E;
+  --color-text-secondary: #51635D;
+  --color-primary: #193C37;
+  --color-primary-text: #FAF8F6;
+  --color-secondary: #F4E8E8;
+  --color-secondary-text: #193C37;
+  --color-border: #E8E3DE;
+  --color-focus: #193C37;
+  --font-body: Inter, Arial, sans-serif;
+  --font-display: Inter, Arial, sans-serif;
+  --font-editorial: Playfair Display, Georgia, serif;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-panel: 24px;
+  --touch-target: 44px;
+  --content-max: 1280px;
+}
