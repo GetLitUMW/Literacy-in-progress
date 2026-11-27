@@ -109,6 +109,9 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--rose); outline-
 .module-twelve .reflection-section + .reflection-section { margin-top: 42px; }
 .module-twelve .reflection-section p:last-child { margin-bottom: 0; }
 .module-twelve .concluding-section { margin-top: 58px; }
+.module-fourteen .reflection-section + .reflection-section { margin-top: 42px; }
+.module-fourteen .reflection-section p:last-child { margin-bottom: 0; }
+.module-fourteen .concluding-section { margin-top: 58px; }
 .article-body .reference a { overflow-wrap: anywhere; text-decoration-color: var(--rose); text-underline-offset: 3px; }
 .article-topic { max-width: 640px; margin: 30px auto 0; color: var(--plum); font-family: var(--serif); font-size: clamp(1rem, 1.7vw, 1.25rem); font-style: italic; line-height: 1.5; }
 .module-eight .article-topic + .article-meta, .module-nine .article-topic + .article-meta { margin-top: 18px; }
@@ -158,7 +161,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--rose); outline-
 .archive-grid .latest { grid-column: 1 / -1; }
 .patterns-page { padding-block: 120px; }
 .patterns-page + .patterns-page, .pattern-snapshot { padding-block: 105px; border-top: 1px solid var(--line); }
-.module-nine-patterns h2, .module-ten-patterns h2, .module-eleven-patterns h2, .module-twelve-patterns h2 { font-size: clamp(2.4rem, 4vw, 3.1rem); letter-spacing: -.02em; }
+.module-nine-patterns h2, .module-ten-patterns h2, .module-eleven-patterns h2, .module-twelve-patterns h2, .module-thirteen-patterns h2, .module-fourteen-patterns h2 { font-size: clamp(2.4rem, 4vw, 3.1rem); letter-spacing: -.02em; }
 .qualitative-observations { align-self: end; }
 .observation { padding: 0 0 20px; border-bottom: 1px solid var(--line); }
 .observation + .observation { padding-top: 20px; }
@@ -215,5 +218,9 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--rose); outline-
   .module-twelve .article-header h1 { font-size: clamp(2.5rem, 12vw, 3.6rem); }
   .module-twelve .article-header .eyebrow { width: calc(100% - 24px); margin-inline: auto; font-size: .5rem; letter-spacing: .07em; line-height: 1.5; }
   .module-twelve .article-topic { width: calc(100% - 32px); font-size: .95rem; }
+  .module-fourteen { max-width: 100%; overflow-x: hidden; }
+  .module-fourteen .article-header h1 { font-size: clamp(2.35rem, 11vw, 3.5rem); }
+  .module-fourteen .article-header .eyebrow { width: calc(100% - 24px); margin-inline: auto; font-size: .5rem; letter-spacing: .07em; line-height: 1.5; }
+  .module-fourteen .article-topic { width: calc(100% - 32px); font-size: .95rem; }
   .explore { padding-block: 85px; }.explore-card { min-height: 210px; padding: 28px; }.explore-card h3 { margin-top: 42px; }.archive-page { padding-top: 75px; }.patterns-page { padding-block: 85px; }.patterns-page + .patterns-page, .pattern-snapshot, .method-shift + .patterns-page { padding-block: 72px; }.method-shift { padding-block: 42px; }.method-shift > div { padding-left: 18px; }.future-patterns { margin-bottom: 85px; padding: 32px 24px; }.about-page { padding-top: 20px; }.breadcrumb { padding-top: 32px; }.module-page .article-header { padding-top: 42px; }
 }
